@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f3f8;
+  font-family: "Allerta";
+  line-height: 1.6;
+}
+a{
+  text-decoration: none;
+}
+#navbarMonstera {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 70px;
+  padding: 50px;
+}
+
+#navFirst img {
+}
+
+#navbarMonstera #navMid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#navbarMonstera #navMid h4 {
+  margin-left: 40px;
+  font-weight: 300;
+}
+#navMid .active {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+#navEnd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#navEnd img {
+  margin-left: 40px;
+  width: 20px;
+}
+
+/* #midWholePart1 {
+  display: flex;
+} */
+
+#midWholePart1{
+   /* float: left; */
+    margin-left: 40px;
+    position: relative;
+}
+
+#midWholePart11{
+   
+}
+#monstera{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+.text-secondary{
+    font-size: 18px;
+    font-weight: 200;
+
+}
+#midWholePart11{
+  float: left;
+  top: 100px;
+  position: relative;
+}
+#midWholePart12{
+  
+  position: absolute;
+  top:450px;
+  margin-bottom: 200px;
+}
+#midWholePart12 #midWholePart121 a{
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  padding: 20px 30px;
+  border-radius: 50px;
+  background-color: #466D50;
+}
+#midWholePart13{
+  display: flex;
+  margin: 70px 0;
+}
+.midWholePart13Parts{
+  display: flex;
+  align-items: center;
+  width: 250px;
+  
+}
+.text{
+  font-size: 14px;
+}
+#imgMain{
+ 
+  float: right;
+}
